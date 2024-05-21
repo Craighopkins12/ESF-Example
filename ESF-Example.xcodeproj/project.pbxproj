@@ -11,6 +11,7 @@
 		87396E342BF63E24007C975F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87396E332BF63E24007C975F /* Preview Assets.xcassets */; };
 		87396E3C2BF63E3C007C975F /* Start.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87396E3B2BF63E3C007C975F /* Start.swift */; };
 		87396E3E2BF63EAA007C975F /* ESF Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87396E3D2BF63EAA007C975F /* ESF Client.swift */; };
+		87FF2A952BFCEABC00B0F915 /* libEndpointSecurity.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 87FF2A942BFCEAAC00B0F915 /* libEndpointSecurity.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		87396E352BF63E24007C975F /* ESF_Example.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ESF_Example.entitlements; sourceTree = "<group>"; };
 		87396E3B2BF63E3C007C975F /* Start.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Start.swift; sourceTree = "<group>"; };
 		87396E3D2BF63EAA007C975F /* ESF Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ESF Client.swift"; sourceTree = "<group>"; };
+		87FF2A942BFCEAAC00B0F915 /* libEndpointSecurity.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libEndpointSecurity.tbd; path = usr/lib/libEndpointSecurity.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +29,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87FF2A952BFCEABC00B0F915 /* libEndpointSecurity.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +41,7 @@
 			children = (
 				87396E2B2BF63E21007C975F /* ESF-Example */,
 				87396E2A2BF63E21007C975F /* Products */,
+				87FF2A932BFCEAAC00B0F915 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +71,14 @@
 				87396E332BF63E24007C975F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		87FF2A932BFCEAAC00B0F915 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				87FF2A942BFCEAAC00B0F915 /* libEndpointSecurity.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
